@@ -1,0 +1,14 @@
+---
+subs:
+  - name: Basic
+    description: The Basic health insurance subscription provides essential coverage for common medical services and emergencies.
+    price: $0
+    flagkey: subscription_type_basic
+  - name: Standard
+    description: The Standard health insurance subscription offers comprehensive coverage for a wide range of medical services.
+    price: $0
+    flagkey: subscription_type_standard
+  - name: Premium
+    description: The Premium health insurance subscription provides the highest level of coverage, including all the benefits of the Standard level.
+    price: $0
+    flagkey: subscription_type_premium

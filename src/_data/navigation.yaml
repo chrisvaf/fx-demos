@@ -1,0 +1,12 @@
+---
+items:
+  - text: Credit Cards
+    url: "/credit-cards"
+  - text: PLP
+    url: "/plp"
+  - text: PDP
+    url: "/pdp"
+  - text: Subscriptions
+    url: "/subscriptions"
+  - text: Lead Form
+    url: "/leadform"

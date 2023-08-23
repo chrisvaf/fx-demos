@@ -1,0 +1,136 @@
+<div class="mx-auto rounded-lg shadow dark:border md:mt-0 xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+    <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+        <h1 class="text-2xl font-bold leading-tight tracking-tight md:text-2xl dark:text-white">
+            Let's get started
+        </h1>
+        <form class="space-y-4 md:space-y-6" action="#">
+            <div class="flex flex-wrap justify-center mt-10"
+            x-data="{u: $store.user}">
+                <div class="p-4 max-w-sm w-full" :class="getSequence(u.sequence, 'name')">
+                    <div class="flex rounded-lg flex-col h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                            </svg>    
+                        <a href="#" class="text-center">
+                            <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Name</h5>
+                        </a>
+                        <p class="mb-8 font-normal text-gray-500 dark:text-gray-400">Enter your first and last name.</p>
+                        <div class="w-full mb-6 group">
+                            <label for="first_name" class="mb-2 text-sm text-gray-500 dark:text-white scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First Name</label>
+                            <input type="text" name="first_name" id="first_name" class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+                        </div>
+                        <div class="w-full mb-6 group">
+                            <label for="last_name" class="mb-2 text-sm text-gray-500 dark:text-white scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last Name</label>
+                            <input type="text" name="last_name" id="last_name" class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 max-w-sm w-full" :class="getSequence(u.sequence, 'address')">
+                    <div class="flex rounded-lg flex-col h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                          </svg>
+                          
+                        <a href="#" class="text-center">
+                            <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Address</h5>
+                        </a>
+                        <p class="mb-8 font-normal text-gray-500 dark:text-gray-400">Enter your street address.</p>
+                        <div class="w-full mb-6 group">
+                            <label for="address" class="mb-2 text-sm text-gray-500 dark:text-white scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Address</label>
+                            <input type="text" name="address" id="address" class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+                        </div>
+                        <div class="w-full mb-6 group">
+                            <label for="apt" class="mb-2 text-sm text-gray-500 dark:text-white scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Apartment</label>
+                            <input type="text" name="apt" id="apt" class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 max-w-sm w-full" :class="getSequence(u.sequence, 'city')">
+                    <div class="flex rounded-lg flex-col h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                          </svg>                            
+                        <a href="#" class="text-center">
+                            <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">City</h5>
+                        </a>
+                        <p class="mb-8 font-normal text-gray-500 dark:text-gray-400">In what town or city do you live?</p>
+                        <div class="w-full mb-6 group">
+                            <label for="city" class="mb-2 text-sm text-gray-500 dark:text-white scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">City</label>
+                            <input type="text" name="city" id="city" class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 max-w-sm w-full" :class="getSequence(u.sequence, 'state')">
+                    <div class="flex rounded-lg flex-col h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+                          </svg>                             
+                        <a href="#" class="text-center">
+                            <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">State</h5>
+                        </a>
+                        <p class="mb-8 font-normal text-gray-500 dark:text-gray-400">What state do you live in?</p>
+                        <div class="w-full mb-6 group">
+                            <label for="state" class="mb-2 text-sm text-gray-500 dark:text-white scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">State</label>
+                            <select id="state" class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option>AL</option>
+                                <option>AK</option>
+                                <option>AZ</option>
+                            </select>
+                    </div>
+                    </div>
+                </div>
+                <div class="p-4 max-w-sm w-full" :class="getSequence(u.sequence, 'zip')">
+                    <div class="flex rounded-lg flex-col h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                            </svg>                           
+                        </div>
+                        <a href="#" class="text-center">
+                            <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Zip Code</h5>
+                        </a>
+                        <p class="mb-8 font-normal text-gray-500 dark:text-gray-400">What is your zip or postal code?</p>
+                        <div class="w-full mb-6 group">
+                            <label for="zip" class="mb-2 text-sm text-gray-500 dark:text-white scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Zip Code</label>
+                            <input type="text" name="zip" id="zip" class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+                        </div>
+                    </div>
+                </div>
+                <template x-if="userData.askForEmail == true">
+                    <div class="p-4 max-w-sm w-full" :class="getSequence(u.sequence, 'email')">
+                        <div class="flex rounded-lg flex-col h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto">
+                                <path stroke-linecap="round" d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25" />
+                              </svg>                              
+                            <a href="#" class="text-center">
+                                <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Email Address</h5>
+                            </a>
+                            <p class="mb-8 font-normal text-gray-500 dark:text-gray-400">What is your email address?</p>
+                            <div class="w-full mb-6 group">
+                                <label for="email" class="mb-2 text-sm text-gray-500 dark:text-white scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email Address</label>
+                                <input type="email" name="email" id="email" class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <template x-if="userData.askForPhone == true">
+                    <div class="p-4 max-w-sm w-full" :class="getSequence(u.sequence, 'phone')">
+                        <div class="flex rounded-lg flex-col h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                              </svg>                              
+                            <a href="#" class="text-center">
+                                <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Phone Number</h5>
+                            </a>
+                            <p class="mb-8 font-normal text-gray-500 dark:text-gray-400">What is your preferred contact phone number?</p>
+                            <div class="w-full mb-6 group">
+                                <label for="phoneNumber" class="mb-2 text-sm text-gray-500 dark:text-white scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone Number</label>
+                                <input type="text" name="phoneNumber" id="phoneNumber" class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </form>
+    </div>
+</div>

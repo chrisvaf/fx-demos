@@ -1,0 +1,188 @@
+---
+products:
+  - title: SUZY RAW DENIM JACKET
+    sku: p-41136685
+    department: Women
+    category: Jackets
+    link: fashion/womens/womens-jackets
+    description: We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing. Made in Italy.
+    highlights:
+      - bullet: "Factory (Sub Contractor): Confezioni Lian"
+      - bullet: "Address: via San Michele 39, San Severino Marche, 62027, Macerata, Italy"
+      - bullet: "Number of employees: 28 (12 men/16 women)"
+      - bullet: "Vendor (Main Supplier): Zetabi"
+    details: Inspired by the Swedish Navy’s gold and blue, the Suzy denim jacket brings our signature touch of stretch for a classic and comfortable look.
+    detail_bullets:
+      - bullet: Organic cotton
+      - bullet: Regular length
+      - bullet: Contrast stitching
+      - bullet: Stretch denim
+    images:
+      - /static/img/hands-working-with-denim-material.jpg
+      - /static/img/denim-jacket-3.jpg
+      - /static/img/denim-jacket-2.jpg
+      - /static/img/denim-jacket.jpg
+    price: 290
+    show_sizes: true
+    top_seller: true
+    new_product: false
+  - title: RACHEL COAT
+    sku: p-40707729
+    department: Women
+    category: Jackets
+    link: fashion/womens/womens-jackets
+    description: We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing. Made in Italy.
+    highlights:
+      - bullet: Dropped Shoulder
+      - bullet: Loose
+      - bullet: Model is 176 cm and is wearing a size S
+    details: Designed for the changing of the seasons, the boiled wool belted coat with a dropped shoulder and folded cropped sleeves is a timeless transitional piece.
+    detail_bullets:
+      - bullet: Patch pockets
+      - bullet: Unlined
+      - bullet: Covered button placket
+    images:
+      - /static/img/products/p-40707729/img1.jpg
+      - /static/img/products/p-40707729/img3.jpg
+      - /static/img/products/p-40707729/img4.jpg
+      - /static/img/products/p-40707729/img2.jpg
+    price: 540
+    show_sizes: true
+    top_seller: false
+    new_product: false
+  - title: MARISA COAT
+    sku: p-43093280
+    department: Women
+    category: Jackets
+    link: fashion/womens/womens-jackets
+    description: We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing. Made in Italy.
+    highlights:
+      - bullet: Relaxed
+      - bullet: Model is 175 cm and is wearing a size S
+    details: A perfect outer layer for seasonal transitions, this classic coat wraps up warm with a waist-cinching belt and flattering length.
+    detail_bullets:
+      - bullet: Recycled polyester lining
+      - bullet: Cotton blend
+      - bullet: Single back vent
+      - bullet: Welt pockets
+      - bullet: Detachable belt
+      - bullet: Hidden buttoning
+    images:
+      - /static/img/products/p-43093280/img1.jpg
+      - /static/img/products/p-43093280/img3.jpg
+      - /static/img/products/p-40707729/img4.jpg
+      - /static/img/products/p-43093280/img2.jpg
+    price: 510
+    show_sizes: true
+    top_seller: true
+    new_product: false
+  - title: ANDREA COAT
+    sku: p-40707713
+    department: Women
+    category: Jackets
+    link: fashion/womens/womens-jackets
+    description: We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.
+    highlights:
+      - bullet: Oversized
+      - bullet: Model is 176 cm and is wearing a size S
+    details: Adding interest with oversized details, Andrea’s boxy shape makes a simple yet strong statement in a rich double face wool blend.
+    detail_bullets:
+      - bullet: Double breasted
+      - bullet: Wool bi-stretch twill
+    images:
+      - /static/img/products/p-40707713/img1.jpg
+      - /static/img/products/p-40707713/img3.jpg
+      - /static/img/products/p-40707729/img4.jpg
+      - /static/img/products/p-40707713/img2.jpg
+    price: 630
+    show_sizes: true
+    top_seller: false
+    new_product: false
+  - title: SAMMY SHIRT
+    sku: p-22153156
+    department: Women
+    category: Shirts
+    link: fashion/womens/womens-shirts
+    description: We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.
+    highlights:
+      - bullet: Oversized
+      - bullet: Model is 176 cm and is wearing a size S
+    details: A quintessential shirt in 100% organic cotton, Sammy’s oversized fit pairs perfectly with slim fitting trousers.
+    detail_bullets:
+      - bullet: 100% organic cotton
+      - bullet: Wide shape
+    images:
+      - /static/img/products/p-22153156/img1.jpg
+      - /static/img/products/p-22153156/img3.jpg
+      - /static/img/products/p-40707729/img4.jpg
+      - /static/img/products/p-22153156/img2.jpg
+    price: 195
+    show_sizes: true
+    top_seller: true
+    new_product: false
+  - title: ASHBURY DRESS
+    sku: p-40977269
+    department: Women
+    category: Shirts
+    link: fashion/womens/womens-shirts
+    description: We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.
+    highlights:
+      - bullet: Loose
+      - bullet: Midi Length
+      - bullet: Model is 175 cm and is wearing a size S
+    details: The crinkle cotton voile dress with a playful ruffle hem is a wardrobe hero from a day dress with flats to cocktails in heels.
+    detail_bullets:
+      - bullet: 100% organic cotton
+      - bullet: Relaxed fit
+      - bullet: Drawstring
+    images:
+      - /static/img/products/p-40977269/img2.jpg
+      - /static/img/products/p-40977269/img3.jpg
+      - /static/img/products/p-40707729/img4.jpg
+      - /static/img/products/p-40977269/img1.jpg
+    price: 210
+    show_sizes: true
+    top_seller: false
+    new_product: true
+  - title: CLARA SHORT BOOT
+    sku: p-27312186
+    department: Women
+    category: Women's Shoes
+    link: fashion/womens/womens-shoes
+    description: We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.
+    highlights:
+      - bullet: 
+    details: Our flat zip bootie has a classic Blake stitch construction and comes in a polished calf leather with a 3 cm high stacked leather heel. The luxurious style has a smooth lambskin lining and insock, and is elegantly finished with a handmade leather sole. Handcrafted in Portugal.
+    detail_bullets:
+      - bullet: 100% leather
+      - bullet: Handmade sole
+    images:
+      - /static/img/products/p-27312186/img2.jpg
+      - /static/img/products/p-27312186/img3.jpg
+      - /static/img/products/p-40707729/img4.jpg
+      - /static/img/products/p-27312186/img1.jpg
+    price: 490
+    show_sizes: true
+    top_seller: false
+    new_product: true
+  - title: KATE LOW SNEAKER
+    sku: p-42708712
+    department: Women
+    category: Women's Shoes
+    link: fashion/womens/womens-shoes
+    description: We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.
+    highlights:
+      - bullet: 
+    details: The Kate Sneaker has a classic look in nappa leather with a removable comfort insole. It has wax-coated laces to match the leather, and a sturdy rubber sole. Tanned in Italy.
+    detail_bullets:
+      - bullet: Removable insole
+      - bullet: Waxed cotton laces
+    images:
+      - /static/img/products/p-42708712/img2.jpg
+      - /static/img/products/p-42708712/img3.jpg
+      - /static/img/products/p-40707729/img4.jpg
+      - /static/img/products/p-42708712/img1.jpg
+    price: 490
+    show_sizes: true
+    top_seller: true
+    new_product: true
