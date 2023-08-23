@@ -4,7 +4,8 @@
     "eleventy": "eleventy --watch",
     "debug": "set DEBUG=* & eleventy",
     "css": "postcss src/static/css/tailwind.css --o static/css/style.css --watch",
-    "build": "cross-env ELEVENTY_ENV=prod NODE_ENV=dev eleventy --pathprefix=/fx-demos/ && cross-env NODE_ENV=prod tailwindcss -i src/static/css/tailwind.css -o docs/static/css/style.css",
+    "build": "cross-env ELEVENTY_ENV=dev NODE_ENV=prod eleventy && cross-env NODE_ENV=prod tailwindcss -i src/static/css/tailwind.css -o docs/static/css/style.css",
+    "build-gh": "cross-env ELEVENTY_ENV=prod NODE_ENV=prod eleventy && cross-env NODE_ENV=prod tailwindcss -i src/static/css/tailwind.css -o docs/static/css/style.css",
     "browsersync": "browser-sync start --server docs --files docs --port 8080 --no-notify --no-open"
   },
   "devDependencies": {

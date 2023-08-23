@@ -6,6 +6,8 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const flowbite = require("flowbite");
 require('dotenv').config();
 
+const isProduction = process.env.NODE_ENV === 'prod';
+
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
   eleventyConfig.setUseGitIgnore(false);
@@ -71,7 +73,7 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "docs"
     },
-    pathPrefix: "/fx-demos/",
+    pathPrefix: isProduction ? '/fx-demos/' : '/',
     htmlTemplateEngine: "njk",
   };
 };
