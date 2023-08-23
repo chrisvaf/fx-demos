@@ -64,6 +64,8 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.pathPrefix = "/fx-demos/";
+
   // Let Eleventy transform HTML files as nunjucks
   // So that we can use .html instead of .njk
   return {
@@ -71,7 +73,6 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "docs"
     },
-    pathPrefix: process.env.IMAGE_BASE_PATH,
     htmlTemplateEngine: "njk",
   };
 };
