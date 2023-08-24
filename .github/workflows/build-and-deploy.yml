@@ -4,6 +4,8 @@ on: [push]
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
+    env:
+        APP_PATH: "/fx-demos/"
     steps:
       - uses: actions/checkout@master
       - name: Build
@@ -16,5 +18,3 @@ jobs:
           publish_dir: _site 
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-env:
-  APP_PATH="/fx-demos"/
