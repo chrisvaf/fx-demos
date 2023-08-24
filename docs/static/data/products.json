@@ -4,7 +4,7 @@
         "sku": "p-41136685",
         "department": "Women",
         "category": "Jackets",
-        "link": "/fashion/womens/womens-jackets",
+        "link": "../fashion/womens/womens-jackets",
         "description": "We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing. Made in Italy.",
         "highlights": [
           {
@@ -51,7 +51,7 @@
         "sku": "p-40707729",
         "department": "Women",
         "category": "Jackets",
-        "link": "/fashion/womens/womens-jackets",
+        "link": "../fashion/womens/womens-jackets",
         "description": "We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing. Made in Italy.",
         "highlights": [
           {
@@ -77,10 +77,10 @@
           }
         ],
         "images": [
-          "/static/img/products/p-40707729/img1.jpg",
-          "/static/img/products/p-40707729/img3.jpg",
-          "/static/img/products/p-40707729/img4.jpg",
-          "/static/img/products/p-40707729/img2.jpg"
+          "../static/img/products/p-40707729/img1.jpg",
+          "../static/img/products/p-40707729/img3.jpg",
+          "../static/img/products/p-40707729/img4.jpg",
+          "../static/img/products/p-40707729/img2.jpg"
         ],
         "price": 540,
         "show_sizes": true,
@@ -92,7 +92,7 @@
         "sku": "p-43093280",
         "department": "Women",
         "category": "Jackets",
-        "link": "/fashion/womens/womens-jackets",
+        "link": "../fashion/womens/womens-jackets",
         "description": "We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing. Made in Italy.",
         "highlights": [
           {
@@ -124,10 +124,10 @@
           }
         ],
         "images": [
-          "/static/img/products/p-43093280/img1.jpg",
-          "/static/img/products/p-43093280/img3.jpg",
-          "/static/img/products/p-40707729/img4.jpg",
-          "/static/img/products/p-43093280/img2.jpg"
+          "../static/img/products/p-43093280/img1.jpg",
+          "../static/img/products/p-43093280/img3.jpg",
+          "../static/img/products/p-40707729/img4.jpg",
+          "../static/img/products/p-43093280/img2.jpg"
         ],
         "price": 510,
         "show_sizes": true,
@@ -139,7 +139,7 @@
         "sku": "p-40707713",
         "department": "Women",
         "category": "Jackets",
-        "link": "/fashion/womens/womens-jackets",
+        "link": "../fashion/womens/womens-jackets",
         "description": "We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.",
         "highlights": [
           {
@@ -159,10 +159,10 @@
           }
         ],
         "images": [
-          "/static/img/products/p-40707713/img1.jpg",
-          "/static/img/products/p-40707713/img3.jpg",
-          "/static/img/products/p-40707729/img4.jpg",
-          "/static/img/products/p-40707713/img2.jpg"
+          "../static/img/products/p-40707713/img1.jpg",
+          "../static/img/products/p-40707713/img3.jpg",
+          "../static/img/products/p-40707729/img4.jpg",
+          "../static/img/products/p-40707713/img2.jpg"
         ],
         "price": 630,
         "show_sizes": true,
@@ -174,7 +174,7 @@
         "sku": "p-22153156",
         "department": "Women",
         "category": "Shirts",
-        "link": "/fashion/womens/womens-shirts",
+        "link": "../fashion/womens/womens-shirts",
         "description": "We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.",
         "highlights": [
           {
@@ -194,10 +194,10 @@
           }
         ],
         "images": [
-          "/static/img/products/p-22153156/img1.jpg",
-          "/static/img/products/p-22153156/img3.jpg",
-          "/static/img/products/p-40707729/img4.jpg",
-          "/static/img/products/p-22153156/img2.jpg"
+          "../static/img/products/p-22153156/img1.jpg",
+          "../static/img/products/p-22153156/img3.jpg",
+          "../static/img/products/p-40707729/img4.jpg",
+          "../static/img/products/p-22153156/img2.jpg"
         ],
         "price": 195,
         "show_sizes": true,
@@ -209,7 +209,7 @@
         "sku": "p-40977269",
         "department": "Women",
         "category": "Shirts",
-        "link": "/fashion/womens/womens-shirts",
+        "link": "../fashion/womens/womens-shirts",
         "description": "We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.",
         "highlights": [
           {
@@ -235,10 +235,10 @@
           }
         ],
         "images": [
-          "/static/img/products/p-40977269/img2.jpg",
-          "/static/img/products/p-40977269/img3.jpg",
-          "/static/img/products/p-40707729/img4.jpg",
-          "/static/img/products/p-40977269/img1.jpg"
+          "../static/img/products/p-40977269/img2.jpg",
+          "../static/img/products/p-40977269/img3.jpg",
+          "../static/img/products/p-40707729/img4.jpg",
+          "../static/img/products/p-40977269/img1.jpg"
         ],
         "price": 210,
         "show_sizes": true,
@@ -250,7 +250,7 @@
         "sku": "p-27312186",
         "department": "Women",
         "category": "Women's Shoes",
-        "link": "/fashion/womens/womens-shoes",
+        "link": "../fashion/womens/womens-shoes",
         "description": "We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.",
         "highlights": [
           {
@@ -267,10 +267,10 @@
           }
         ],
         "images": [
-          "/static/img/products/p-27312186/img2.jpg",
-          "/static/img/products/p-27312186/img3.jpg",
-          "/static/img/products/p-40707729/img4.jpg",
-          "/static/img/products/p-27312186/img1.jpg"
+          "../static/img/products/p-27312186/img2.jpg",
+          "../static/img/products/p-27312186/img3.jpg",
+          "../static/img/products/p-40707729/img4.jpg",
+          "../static/img/products/p-27312186/img1.jpg"
         ],
         "price": 490,
         "show_sizes": true,
@@ -282,7 +282,7 @@
         "sku": "p-42708712",
         "department": "Women",
         "category": "Women's Shoes",
-        "link": "/fashion/womens/womens-shoes",
+        "link": "../fashion/womens/womens-shoes",
         "description": "We believe that openness and transparency throughout the production chain plays an important role in modern, sustainable manufacturing.",
         "highlights": [
           {
@@ -299,10 +299,10 @@
           }
         ],
         "images": [
-          "/static/img/products/p-42708712/img2.jpg",
-          "/static/img/products/p-42708712/img3.jpg",
-          "/static/img/products/p-40707729/img4.jpg",
-          "/static/img/products/p-42708712/img1.jpg"
+          "../static/img/products/p-42708712/img2.jpg",
+          "../static/img/products/p-42708712/img3.jpg",
+          "../static/img/products/p-40707729/img4.jpg",
+          "../static/img/products/p-42708712/img1.jpg"
         ],
         "price": 490,
         "show_sizes": true,
