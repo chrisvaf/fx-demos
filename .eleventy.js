@@ -2,13 +2,12 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
+require('dotenv').config();
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const flowbite = require("flowbite");
-require('dotenv').config();
-
-const isProduction = process.env.NODE_ENV === 'prod';
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.pathPrefix = process.env.APP_PATH;
   // Disable automatic use of your .gitignore
   eleventyConfig.setUseGitIgnore(false);
 
@@ -25,7 +24,9 @@ module.exports = function (eleventyConfig) {
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
+    baseHref: eleventyConfig.pathPrefix,
+  });
   
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
@@ -73,7 +74,6 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "docs"
     },
-    pathPrefix: isProduction ? '/fx-demos/' : '/',
     htmlTemplateEngine: "njk",
   };
 };
