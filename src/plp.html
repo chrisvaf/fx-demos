@@ -61,7 +61,7 @@
         case "graphql":
             break;
         default:
-        fetch("/static/data/products.json")
+        fetch("../static/data/products.json")
             .then(response => response.json())
             .then((json) => {
                 userData.products = sortProducts(json, sortField, locationInputForVariable, location);
