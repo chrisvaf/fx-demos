@@ -36,10 +36,10 @@
           }
         ],
         "images": [
-          "/static/img/hands-working-with-denim-material.jpg",
-          "/static/img/denim-jacket-3.jpg",
-          "/static/img/denim-jacket-2.jpg",
-          "/static/img/denim-jacket.jpg"
+          "../static/img/hands-working-with-denim-material.jpg",
+          "../static/img/denim-jacket-3.jpg",
+          "../static/img/denim-jacket-2.jpg",
+          "../static/img/denim-jacket.jpg"
         ],
         "price": 290,
         "show_sizes": true,
